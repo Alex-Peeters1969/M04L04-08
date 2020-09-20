@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Filmzoeker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer type="text/javascript" src="Films.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Welkom bij de winc Filmzoeker</h1>
+
+      <div id="filmButton">
+       <input type="radio" id="newestMovies" name="movie" value="newestMovies"/>
+        <label for="newestMovies">Laatste Films, 2014 of nieuwer</label>
+
+        <input type="radio" id="avengers" name="movie" value="avengers" />
+        <label for="avengers">Avengers</label>
+
+        <input type="radio" id="x-Men" name="movie" value="x-Men" />
+        <label for="x-Men">X-Men</label>
+
+        <input type="radio" id="princess" name="movie" value="princess" />
+        <label for="princess">Princess</label>
+
+        <input type="radio" id="batman" name="movie" value="batman" />
+        <label for="batman">Batman</label>
+      </div>
+    </header>
+
+    <main id="filmsDisplay">
+      <div id="displayFilmTitles"></div>
+    </main>
+  </body>
+</html>
